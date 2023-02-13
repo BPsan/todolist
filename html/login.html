@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <ul class="navigation">
+            <li>
+                <button class="burger"></button>
+                <a href="" class="home"><img src="../img/home.svg" width="24px" height="24px" alt=""></a>
+                <form action="" class="form-search">
+                    <button class="seek"></button>
+                    <input type="text" name="search">
+                </form>
+            </li>
+            <li>
+                <button href="" class="plus"></button>
+                <button class="notification"></button>
+                <button class="avatar"></button>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <section>
+            <form class="login-form" action="../login.php" method="post" autocomplete="off">
+                <h1>Войти</h1>
+                <a class="signin-a" href=""><img src="../img/Google - jpeg.jpg" width="24px" height="24px" alt="Google"> Войти через Google</a>
+                <a class="signin-a" href=""><img src="../img/VK - jpeg.jpg" width="24px" height="24px" alt="VK"> Войти через VK</a>
+                <h3>E-mail</h3>
+                <input class="inp-text" type="text">
+                <h3>Пароль</h3>
+                <input class="inp-text" type="text">
+                <a class="forgot" href="">Забыли пароль?</a>
+                <button>Войти</button>
+                <p>Используя для входа Google, Apple или Email-адрес, вы соглашаетесь с <a href="">Условиями использования</a> и <a href="">Политикой конфиденциальности</a>.</p>
+            </form>
+            <p>Ещё нет аккаунта? <a href="https://todoist.com/auth/signup">Зарегистрироваться</a></p>
+        </section>
+    </main>
+</body>
+</html>
