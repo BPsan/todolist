@@ -35,6 +35,7 @@ header{
 .home{
     width: 24px;
     height: 24px;
+    margin-left: 26.4px;
 }
 
 .form-search{
@@ -42,6 +43,9 @@ header{
     width: 226px;
     height: 24px;
     border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-left: 28.4px;
 }
 
 .seek{
@@ -50,9 +54,15 @@ header{
     height: 16px;
     background-color: transparent;
     background-image: url(../img/search.svg);
+    margin-left: 16px;
+    padding: 0;
 }
 
-.form-search > input{
+.inp-search{
+    border: 0;
+    width:fit-content;
+}
+.inp-search:active{
     border: 0;
 }
 
@@ -62,6 +72,7 @@ header{
     background-image: url(../img/plus.svg);
     width: 24px;
     height: 24px;
+    margin-right: 28.4px;
 }
 
 .notification{
@@ -70,6 +81,7 @@ header{
     background-image: url(../img/notifications.svg);
     width: 24px;
     height: 24px;
+    margin-right: 26.4px;
 }
 
 .avatar{
@@ -78,4 +90,5 @@ header{
     background-image: url(../img/avatar.svg);
     width: 24px;
     height: 24px;
+    margin-right: 40px;
 }
