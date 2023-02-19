@@ -1,8 +1,11 @@
-body{
+.уbody{
     background-color: #e9eeff;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
 }
 
-header{
+.header{
     margin: auto 0;
     padding: 0;
 }
@@ -18,7 +21,7 @@ header{
     justify-content: space-between;
 }
 
-.navigation > li{
+.navigation li{
     display: flex;
     flex-direction: row;
 }
@@ -60,7 +63,9 @@ header{
 
 .inp-search{
     border: 0;
-    width:fit-content;
+}
+.inp-search:hover{
+    border: 1px red solid;
 }
 .inp-search:active{
     border: 0;
