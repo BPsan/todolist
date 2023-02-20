@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body class="body">
+    <header class="header">
+        <ul class="navigation">
+            <li>
+                <button class="burger">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 20C0.447716 20 0 19.5523 0 19C0 18.4477 0.447715 18 1 18H23C23.5523 18 24 18.4477 24 19C24 19.5523 23.5523 20 23 20H1ZM1 13C0.447716 13 0 12.5523 0 12C0 11.4477 0.447715 11 1 11H23C23.5523 11 24 11.4477 24 12C24 12.5523 23.5523 13 23 13H1ZM1 6C0.447716 6 0 5.55228 0 5C0 4.44772 0.447715 4 1 4H23C23.5523 4 24 4.44772 24 5C24 5.55228 23.5523 6 23 6H1Z" fill="#94A4B6"/></svg>                        
+                </button>
+                <a href="#" class="home"><img src="../img/home.svg" width="24px" height="24px" alt=""></a>
+                <form action="" class="form-search">
+                    <button class="seek">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_55_5213)"><path d="M15.0222 15.9684L9.17778 10.3577C8.73333 10.7275 8.21481 11.0155 7.62222 11.2217C7.02963 11.428 6.4 11.5311 5.73333 11.5311C4.13333 11.5311 2.77778 10.9977 1.66667 9.93106C0.555556 8.8644 0 7.57729 0 6.06973C0 4.56218 0.555556 3.27507 1.66667 2.2084C2.77778 1.14173 4.12593 0.608398 5.71111 0.608398C7.28148 0.608398 8.61852 1.14173 9.72222 2.2084C10.8259 3.27507 11.3778 4.56218 11.3778 6.06973C11.3778 6.68129 11.2741 7.27151 11.0667 7.8404C10.8593 8.40929 10.5481 8.94262 10.1333 9.4404L16 15.0297L15.0222 15.9684ZM5.71111 10.2511C6.91111 10.2511 7.93333 9.84218 8.77778 9.0244C9.62222 8.20662 10.0444 7.22173 10.0444 6.06973C10.0444 4.91773 9.62222 3.93284 8.77778 3.11507C7.93333 2.29729 6.91111 1.8884 5.71111 1.8884C4.4963 1.8884 3.46296 2.29729 2.61111 3.11507C1.75926 3.93284 1.33333 4.91773 1.33333 6.06973C1.33333 7.22173 1.75926 8.20662 2.61111 9.0244C3.46296 9.84218 4.4963 10.2511 5.71111 10.2511Z" fill="#94A4B6"/></g><defs><clipPath id="clip0_55_5213"><rect width="16" height="16" fill="white"/></clipPath></defs></svg>                            
+                    </button>
+                    <input class="inp-search" type="text"></input>
+                </form>
+            </li>
+            <li>
+                <button class="plus">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 22C11.4083 22 10.9286 21.5203 10.9286 20.9286V13.0714H3.07143C2.4797 13.0714 2 12.5917 2 12C2 11.4083 2.47969 10.9286 3.07143 10.9286H10.9286V3.07143C10.9286 2.4797 11.4083 2 12 2C12.5917 2 13.0714 2.47969 13.0714 3.07143V10.9286H20.9286C21.5203 10.9286 22 11.4083 22 12C22 12.5917 21.5203 13.0714 20.9286 13.0714H13.0714V20.9286C13.0714 21.5203 12.5917 22 12 22Z" fill="#94A4B6"/></svg>                        
+                </button>
+                <button class="notification">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.3999 20.4V18.6H4.9199V9.42C4.9199 7.74 5.4149 6.245 6.4049 4.935C7.3949 3.625 8.6999 2.8 10.3199 2.46V1.59C10.3199 1.13 10.4849 0.75 10.8149 0.45C11.1449 0.15 11.5399 0 11.9999 0C12.4599 0 12.8549 0.15 13.1849 0.45C13.5149 0.75 13.6799 1.13 13.6799 1.59V2.46C15.2999 2.8 16.6099 3.625 17.6099 4.935C18.6099 6.245 19.1099 7.74 19.1099 9.42V18.6H21.5999V20.4H2.3999ZM11.9999 24C11.3599 24 10.7999 23.765 10.3199 23.295C9.8399 22.825 9.5999 22.26 9.5999 21.6H14.3999C14.3999 22.26 14.1649 22.825 13.6949 23.295C13.2249 23.765 12.6599 24 11.9999 24ZM6.7199 18.6H17.3099V9.42C17.3099 7.94 16.7999 6.68 15.7799 5.64C14.7599 4.6 13.5099 4.08 12.0299 4.08C10.5499 4.08 9.2949 4.6 8.2649 5.64C7.2349 6.68 6.7199 7.94 6.7199 9.42V18.6Z" fill="#94A4B6"/></svg>                        
+                </button>
+                <button class="avatar">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22.5 23H1.5C1.5 23 1.63552 16.8486 4 14.75C6.65958 12.3895 8.69637 12 12 12C15.3036 12 17.6757 12.7472 20 14.75C22.3775 16.7986 22.5 23 22.5 23Z" stroke="#94A4B6" stroke-width="2"/><path d="M7 6C7 9.08355 9.22756 11 12.0034 11C14.763 11 17 8.76142 17 6C17 3.23857 14.7793 1 12.0034 1C9.22756 1 7 2.66667 7 6Z" stroke="#94A4B6" stroke-width="2"/></svg>                        
+                </button>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <div class="content">
+            <section class="section-1">
+                <ul class="today">
+                    <li>
+                        <h1>Сегодня</h1>
+                        <p>Пн 30 янв</p>
+                    </li>
+                    <li>
+                        <button class="add-task">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.19643 15.5V8.80357H0.5V7.19643H7.19643V0.5H8.80357V7.19643H15.5V8.80357H8.80357V15.5H7.19643Z" fill="#EC7A78"/></svg>                                
+                            Добавить задачу
+                        </button>
+                    </li>
+                </ul>
+            </section>
+            <section class="section-2">
+                <ul class="priority-list">
+                    <li>
+                        <button class="priority-1">
+                            <svg width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.588257 18V0H9.66767L10.1706 2.27647H16.4706V12.0706H9.69414L9.1912 9.82059H2.17649V18H0.588257ZM11.0441 10.4824H14.8824V3.86471H8.82061L8.31767 1.58824H2.17649V8.23235H10.5412L11.0441 10.4824Z" fill="#CA4F60"/></svg>
+                            Приоритет 1
+                        </button>
+                    </li>
+                    <li>
+                        <button class="priority-2">
+                            <svg width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.588226 18V0H9.66764L10.1706 2.27647H16.4706V12.0706H9.69411L9.19117 9.82059H2.17646V18H0.588226ZM11.0441 10.4824H14.8823V3.86471H8.82058L8.31764 1.58824H2.17646V8.23235H10.5412L11.0441 10.4824Z" fill="#F4AE3A"/></svg>
+                            Приоритет 2
+                        </button>
+                    </li>
+                    <li>
+                        <button class="priority-3">
+                            <svg width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.588226 18V0H9.66764L10.1706 2.27647H16.4706V12.0706H9.69411L9.19117 9.82059H2.17646V18H0.588226ZM11.0441 10.4824H14.8823V3.86471H8.82058L8.31764 1.58824H2.17646V8.23235H10.5412L11.0441 10.4824Z" fill="#3F6DE1"/></svg>
+                            Приоритет 3
+                        </button>
+                    </li>
+                    <li>
+                        <button class="priority-4">
+                            <svg width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.588242 18V0H9.66765L10.1706 2.27647H16.4706V12.0706H9.69412L9.19118 9.82059H2.17648V18H0.588242ZM11.0441 10.4824H14.8824V3.86471H8.82059L8.31765 1.58824H2.17648V8.23235H10.5412L11.0441 10.4824Z" fill="#94A4B6"/></svg>
+                            Приоритет 4 
+                        </button>
+                    </li>
+                </ul>
+            </section>
+            <section class="section-3">
+                <div class="overdue">
+                    <h2>Просрочено</h2>
+                    <button>перенести</button>
+                </div>
+                <ul class="date">
+                    <li>
+                        <input type="checkbox" class="precedence-1" >
+                        <div class="text-taks"><p class="name-task">list item</p></div>
+                        <button class="edit-task"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_50_2536)"><circle cx="16" cy="16" r="15.25" stroke="#1AB89D" stroke-width="1.5"/><path d="M23.6289 11.1651C23.1226 11.6714 22.3017 11.6714 21.7954 11.1651L20.8349 10.2046C20.3286 9.69832 20.3286 8.8774 20.8349 8.37108V8.37108C21.0823 8.12369 21.3879 8 21.7517 8C22.1155 8 22.4211 8.12369 22.6685 8.37108L23.6289 9.33151C23.8763 9.5789 24 9.88449 24 10.2483C24 10.6121 23.8763 10.9177 23.6289 11.1651V11.1651ZM20.3984 11.6016C21.1699 12.3732 21.1699 13.6241 20.3984 14.3956L10.794 24H8V21.206L17.6044 11.6016C18.3759 10.8301 19.6268 10.8301 20.3984 11.6016V11.6016ZM19.4598 12.5402L18.9795 12.06L19.94 13.0205L19.4598 12.5402Z" fill="#1AB89D"/></g><defs><clipPath id="clip0_50_2536"><rect width="32" height="32" fill="white"/></clipPath></defs></svg></button>
+                        <button class="delete-task"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_50_2537)"><path d="M11.5778 24C11.2074 24 10.8926 23.8704 10.6333 23.6111C10.3741 23.3519 10.2444 23.037 10.2444 22.6667V10H9.33333V8.66667H13.5111V8H19.3778V8.66667H23.5556V10H22.6444V22.6667C22.6444 23.0222 22.5111 23.3333 22.2444 23.6C21.9778 23.8667 21.6667 24 21.3111 24H11.5778ZM21.3111 10H11.5778V22.6667H21.3111V10ZM13.9333 20.7556H15.2667V11.8889H13.9333V20.7556ZM17.6222 20.7556H18.9556V11.8889H17.6222V20.7556Z" fill="#94A4B6"/><circle cx="16" cy="16" r="15.25" stroke="#94A4B6" stroke-width="1.5"/></g><defs><clipPath id="clip0_50_2537"><rect width="32" height="32" fill="white"/></clipPath></defs></svg></button>
+                    </li>
+                    <li>
+                        <input class="precedence-2" type="checkbox">
+                        <div class="text-taks"><p class="name-task">list item</p></div>
+                        <button class="edit-task"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_50_2536)"><circle cx="16" cy="16" r="15.25" stroke="#1AB89D" stroke-width="1.5"/><path d="M23.6289 11.1651C23.1226 11.6714 22.3017 11.6714 21.7954 11.1651L20.8349 10.2046C20.3286 9.69832 20.3286 8.8774 20.8349 8.37108V8.37108C21.0823 8.12369 21.3879 8 21.7517 8C22.1155 8 22.4211 8.12369 22.6685 8.37108L23.6289 9.33151C23.8763 9.5789 24 9.88449 24 10.2483C24 10.6121 23.8763 10.9177 23.6289 11.1651V11.1651ZM20.3984 11.6016C21.1699 12.3732 21.1699 13.6241 20.3984 14.3956L10.794 24H8V21.206L17.6044 11.6016C18.3759 10.8301 19.6268 10.8301 20.3984 11.6016V11.6016ZM19.4598 12.5402L18.9795 12.06L19.94 13.0205L19.4598 12.5402Z" fill="#1AB89D"/></g><defs><clipPath id="clip0_50_2536"><rect width="32" height="32" fill="white"/></clipPath></defs></svg></button>
+                        <button class="delete-task"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_50_2537)"><path d="M11.5778 24C11.2074 24 10.8926 23.8704 10.6333 23.6111C10.3741 23.3519 10.2444 23.037 10.2444 22.6667V10H9.33333V8.66667H13.5111V8H19.3778V8.66667H23.5556V10H22.6444V22.6667C22.6444 23.0222 22.5111 23.3333 22.2444 23.6C21.9778 23.8667 21.6667 24 21.3111 24H11.5778ZM21.3111 10H11.5778V22.6667H21.3111V10ZM13.9333 20.7556H15.2667V11.8889H13.9333V20.7556ZM17.6222 20.7556H18.9556V11.8889H17.6222V20.7556Z" fill="#94A4B6"/><circle cx="16" cy="16" r="15.25" stroke="#94A4B6" stroke-width="1.5"/></g><defs><clipPath id="clip0_50_2537"><rect width="32" height="32" fill="white"/></clipPath></defs></svg></button>
+                    </li>
+                    <li>
+                        <input class="precedence-3" type="checkbox">
+                        <div class="text-taks"><p class="name-task">list item</p> <p class="description">Supporting line text lorem ipsum dolor sit amet, consectetur</p></div>
+                        <button class="edit-task"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_50_2536)"><circle cx="16" cy="16" r="15.25" stroke="#1AB89D" stroke-width="1.5"/><path d="M23.6289 11.1651C23.1226 11.6714 22.3017 11.6714 21.7954 11.1651L20.8349 10.2046C20.3286 9.69832 20.3286 8.8774 20.8349 8.37108V8.37108C21.0823 8.12369 21.3879 8 21.7517 8C22.1155 8 22.4211 8.12369 22.6685 8.37108L23.6289 9.33151C23.8763 9.5789 24 9.88449 24 10.2483C24 10.6121 23.8763 10.9177 23.6289 11.1651V11.1651ZM20.3984 11.6016C21.1699 12.3732 21.1699 13.6241 20.3984 14.3956L10.794 24H8V21.206L17.6044 11.6016C18.3759 10.8301 19.6268 10.8301 20.3984 11.6016V11.6016ZM19.4598 12.5402L18.9795 12.06L19.94 13.0205L19.4598 12.5402Z" fill="#1AB89D"/></g><defs><clipPath id="clip0_50_2536"><rect width="32" height="32" fill="white"/></clipPath></defs></svg></button>
+                        <button class="delete-task"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_50_2537)"><path d="M11.5778 24C11.2074 24 10.8926 23.8704 10.6333 23.6111C10.3741 23.3519 10.2444 23.037 10.2444 22.6667V10H9.33333V8.66667H13.5111V8H19.3778V8.66667H23.5556V10H22.6444V22.6667C22.6444 23.0222 22.5111 23.3333 22.2444 23.6C21.9778 23.8667 21.6667 24 21.3111 24H11.5778ZM21.3111 10H11.5778V22.6667H21.3111V10ZM13.9333 20.7556H15.2667V11.8889H13.9333V20.7556ZM17.6222 20.7556H18.9556V11.8889H17.6222V20.7556Z" fill="#94A4B6"/><circle cx="16" cy="16" r="15.25" stroke="#94A4B6" stroke-width="1.5"/></g><defs><clipPath id="clip0_50_2537"><rect width="32" height="32" fill="white"/></clipPath></defs></svg></button>
+                    </li>
+                    <li>
+                        <input class="precedence-4" type="checkbox">
+                        <div class="text-taks"><p class="name-task">list item</p> <p class="description">Supporting line text lorem ipsum dolor sit amet, consectetur</p></div>
+                        <button class="edit-task"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_50_2536)"><circle cx="16" cy="16" r="15.25" stroke="#1AB89D" stroke-width="1.5"/><path d="M23.6289 11.1651C23.1226 11.6714 22.3017 11.6714 21.7954 11.1651L20.8349 10.2046C20.3286 9.69832 20.3286 8.8774 20.8349 8.37108V8.37108C21.0823 8.12369 21.3879 8 21.7517 8C22.1155 8 22.4211 8.12369 22.6685 8.37108L23.6289 9.33151C23.8763 9.5789 24 9.88449 24 10.2483C24 10.6121 23.8763 10.9177 23.6289 11.1651V11.1651ZM20.3984 11.6016C21.1699 12.3732 21.1699 13.6241 20.3984 14.3956L10.794 24H8V21.206L17.6044 11.6016C18.3759 10.8301 19.6268 10.8301 20.3984 11.6016V11.6016ZM19.4598 12.5402L18.9795 12.06L19.94 13.0205L19.4598 12.5402Z" fill="#1AB89D"/></g><defs><clipPath id="clip0_50_2536"><rect width="32" height="32" fill="white"/></clipPath></defs></svg></button>
+                        <button class="delete-task"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_50_2537)"><path d="M11.5778 24C11.2074 24 10.8926 23.8704 10.6333 23.6111C10.3741 23.3519 10.2444 23.037 10.2444 22.6667V10H9.33333V8.66667H13.5111V8H19.3778V8.66667H23.5556V10H22.6444V22.6667C22.6444 23.0222 22.5111 23.3333 22.2444 23.6C21.9778 23.8667 21.6667 24 21.3111 24H11.5778ZM21.3111 10H11.5778V22.6667H21.3111V10ZM13.9333 20.7556H15.2667V11.8889H13.9333V20.7556ZM17.6222 20.7556H18.9556V11.8889H17.6222V20.7556Z" fill="#94A4B6"/><circle cx="16" cy="16" r="15.25" stroke="#94A4B6" stroke-width="1.5"/></g><defs><clipPath id="clip0_50_2537"><rect width="32" height="32" fill="white"/></clipPath></defs></svg></button>
+                    </li>
+                </ul>
+            </section>
+            <section class="section-3">
+                <h2>30 янв , Сегодня , Вт</h2>
+                <ul class="date">
+                    <li>
+                        <input class="precedence-4" type="checkbox"> <div class="text-taks"><p class="name-task">list item</p></div> <button class="edit-task"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_50_2536)"><circle cx="16" cy="16" r="15.25" stroke="#1AB89D" stroke-width="1.5"/><path d="M23.6289 11.1651C23.1226 11.6714 22.3017 11.6714 21.7954 11.1651L20.8349 10.2046C20.3286 9.69832 20.3286 8.8774 20.8349 8.37108V8.37108C21.0823 8.12369 21.3879 8 21.7517 8C22.1155 8 22.4211 8.12369 22.6685 8.37108L23.6289 9.33151C23.8763 9.5789 24 9.88449 24 10.2483C24 10.6121 23.8763 10.9177 23.6289 11.1651V11.1651ZM20.3984 11.6016C21.1699 12.3732 21.1699 13.6241 20.3984 14.3956L10.794 24H8V21.206L17.6044 11.6016C18.3759 10.8301 19.6268 10.8301 20.3984 11.6016V11.6016ZM19.4598 12.5402L18.9795 12.06L19.94 13.0205L19.4598 12.5402Z" fill="#1AB89D"/></g><defs><clipPath id="clip0_50_2536"><rect width="32" height="32" fill="white"/></clipPath></defs></svg></button> <button class="delete-task"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_50_2537)"><path d="M11.5778 24C11.2074 24 10.8926 23.8704 10.6333 23.6111C10.3741 23.3519 10.2444 23.037 10.2444 22.6667V10H9.33333V8.66667H13.5111V8H19.3778V8.66667H23.5556V10H22.6444V22.6667C22.6444 23.0222 22.5111 23.3333 22.2444 23.6C21.9778 23.8667 21.6667 24 21.3111 24H11.5778ZM21.3111 10H11.5778V22.6667H21.3111V10ZM13.9333 20.7556H15.2667V11.8889H13.9333V20.7556ZM17.6222 20.7556H18.9556V11.8889H17.6222V20.7556Z" fill="#94A4B6"/><circle cx="16" cy="16" r="15.25" stroke="#94A4B6" stroke-width="1.5"/></g><defs><clipPath id="clip0_50_2537"><rect width="32" height="32" fill="white"/></clipPath></defs></svg></button>
+                    </li>
+                    <li>
+                        <input class="precedence-4" type="checkbox"> <div class="text-taks"><p class="name-task">list item</p> <p class="description">Supporting line text lorem ipsum dolor sit amet, consectetur</p></div> <button class="edit-task"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_50_2536)"><circle cx="16" cy="16" r="15.25" stroke="#1AB89D" stroke-width="1.5"/><path d="M23.6289 11.1651C23.1226 11.6714 22.3017 11.6714 21.7954 11.1651L20.8349 10.2046C20.3286 9.69832 20.3286 8.8774 20.8349 8.37108V8.37108C21.0823 8.12369 21.3879 8 21.7517 8C22.1155 8 22.4211 8.12369 22.6685 8.37108L23.6289 9.33151C23.8763 9.5789 24 9.88449 24 10.2483C24 10.6121 23.8763 10.9177 23.6289 11.1651V11.1651ZM20.3984 11.6016C21.1699 12.3732 21.1699 13.6241 20.3984 14.3956L10.794 24H8V21.206L17.6044 11.6016C18.3759 10.8301 19.6268 10.8301 20.3984 11.6016V11.6016ZM19.4598 12.5402L18.9795 12.06L19.94 13.0205L19.4598 12.5402Z" fill="#1AB89D"/></g><defs><clipPath id="clip0_50_2536"><rect width="32" height="32" fill="white"/></clipPath></defs></svg></button> <button class="delete-task"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_50_2537)"><path d="M11.5778 24C11.2074 24 10.8926 23.8704 10.6333 23.6111C10.3741 23.3519 10.2444 23.037 10.2444 22.6667V10H9.33333V8.66667H13.5111V8H19.3778V8.66667H23.5556V10H22.6444V22.6667C22.6444 23.0222 22.5111 23.3333 22.2444 23.6C21.9778 23.8667 21.6667 24 21.3111 24H11.5778ZM21.3111 10H11.5778V22.6667H21.3111V10ZM13.9333 20.7556H15.2667V11.8889H13.9333V20.7556ZM17.6222 20.7556H18.9556V11.8889H17.6222V20.7556Z" fill="#94A4B6"/><circle cx="16" cy="16" r="15.25" stroke="#94A4B6" stroke-width="1.5"/></g><defs><clipPath id="clip0_50_2537"><rect width="32" height="32" fill="white"/></clipPath></defs></svg></button>
+                    </li>
+                    <li>
+                        <input class="precedence-4" type="checkbox"> <div class="text-taks"><p class="name-task">list item</p> <p class="description">Supporting line text lorem ipsum dolor sit amet, consectetur</p></div> <button class="edit-task"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_50_2536)"><circle cx="16" cy="16" r="15.25" stroke="#1AB89D" stroke-width="1.5"/><path d="M23.6289 11.1651C23.1226 11.6714 22.3017 11.6714 21.7954 11.1651L20.8349 10.2046C20.3286 9.69832 20.3286 8.8774 20.8349 8.37108V8.37108C21.0823 8.12369 21.3879 8 21.7517 8C22.1155 8 22.4211 8.12369 22.6685 8.37108L23.6289 9.33151C23.8763 9.5789 24 9.88449 24 10.2483C24 10.6121 23.8763 10.9177 23.6289 11.1651V11.1651ZM20.3984 11.6016C21.1699 12.3732 21.1699 13.6241 20.3984 14.3956L10.794 24H8V21.206L17.6044 11.6016C18.3759 10.8301 19.6268 10.8301 20.3984 11.6016V11.6016ZM19.4598 12.5402L18.9795 12.06L19.94 13.0205L19.4598 12.5402Z" fill="#1AB89D"/></g><defs><clipPath id="clip0_50_2536"><rect width="32" height="32" fill="white"/></clipPath></defs></svg></button> <button class="delete-task"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_50_2537)"><path d="M11.5778 24C11.2074 24 10.8926 23.8704 10.6333 23.6111C10.3741 23.3519 10.2444 23.037 10.2444 22.6667V10H9.33333V8.66667H13.5111V8H19.3778V8.66667H23.5556V10H22.6444V22.6667C22.6444 23.0222 22.5111 23.3333 22.2444 23.6C21.9778 23.8667 21.6667 24 21.3111 24H11.5778ZM21.3111 10H11.5778V22.6667H21.3111V10ZM13.9333 20.7556H15.2667V11.8889H13.9333V20.7556ZM17.6222 20.7556H18.9556V11.8889H17.6222V20.7556Z" fill="#94A4B6"/><circle cx="16" cy="16" r="15.25" stroke="#94A4B6" stroke-width="1.5"/></g><defs><clipPath id="clip0_50_2537"><rect width="32" height="32" fill="white"/></clipPath></defs></svg></button>
+                    </li>
+                    <li>
+                        <input class="precedence-4" type="checkbox"> <div class="text-taks"><p class="name-task">list item</p> <p class="description">Supporting line text lorem ipsum dolor sit amet, consectetur</p></div> <button class="edit-task"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_50_2536)"><circle cx="16" cy="16" r="15.25" stroke="#1AB89D" stroke-width="1.5"/><path d="M23.6289 11.1651C23.1226 11.6714 22.3017 11.6714 21.7954 11.1651L20.8349 10.2046C20.3286 9.69832 20.3286 8.8774 20.8349 8.37108V8.37108C21.0823 8.12369 21.3879 8 21.7517 8C22.1155 8 22.4211 8.12369 22.6685 8.37108L23.6289 9.33151C23.8763 9.5789 24 9.88449 24 10.2483C24 10.6121 23.8763 10.9177 23.6289 11.1651V11.1651ZM20.3984 11.6016C21.1699 12.3732 21.1699 13.6241 20.3984 14.3956L10.794 24H8V21.206L17.6044 11.6016C18.3759 10.8301 19.6268 10.8301 20.3984 11.6016V11.6016ZM19.4598 12.5402L18.9795 12.06L19.94 13.0205L19.4598 12.5402Z" fill="#1AB89D"/></g><defs><clipPath id="clip0_50_2536"><rect width="32" height="32" fill="white"/></clipPath></defs></svg></button> <button class="delete-task"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_50_2537)"><path d="M11.5778 24C11.2074 24 10.8926 23.8704 10.6333 23.6111C10.3741 23.3519 10.2444 23.037 10.2444 22.6667V10H9.33333V8.66667H13.5111V8H19.3778V8.66667H23.5556V10H22.6444V22.6667C22.6444 23.0222 22.5111 23.3333 22.2444 23.6C21.9778 23.8667 21.6667 24 21.3111 24H11.5778ZM21.3111 10H11.5778V22.6667H21.3111V10ZM13.9333 20.7556H15.2667V11.8889H13.9333V20.7556ZM17.6222 20.7556H18.9556V11.8889H17.6222V20.7556Z" fill="#94A4B6"/><circle cx="16" cy="16" r="15.25" stroke="#94A4B6" stroke-width="1.5"/></g><defs><clipPath id="clip0_50_2537"><rect width="32" height="32" fill="white"/></clipPath></defs></svg></button>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
