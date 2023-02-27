@@ -2,7 +2,6 @@
     background-color: #e9eeff;
     margin: 0;
     font-family: Roboto, sans-serif;
-    font-size: 14px;
 }
 
 .header{
@@ -32,7 +31,6 @@
     width: 24px;
     height: 24px;
     background-color: transparent;
-    /* background-image: url(../img/burger.svg);     */
 }
 
 .home{
